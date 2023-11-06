@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val webView = binding.cecaneTO
 
         webView.webViewClient = WebViewClient()
-        webView.loadUrl("https://sites.uft.edu.br/cecane")
+        webView.loadUrl("http://codejunior.luisfelipenunes.com/")
         webView.settings.javaScriptEnabled = true
         webView.settings.domStorageEnabled = true
 
