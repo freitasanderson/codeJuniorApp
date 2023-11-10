@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.cecaneto"
+    namespace = "com.example.codejunior"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "br.freitascodes.cecaneto"
+        applicationId = "br.freitascodes.codejunior"
         minSdkVersion(rootProject.extra["defaultMinSdkVersion"] as Int)
         targetSdk = 33
         versionCode = 2

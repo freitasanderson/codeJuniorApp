@@ -1,4 +1,4 @@
-package com.example.cecaneto.ui.theme
+package com.example.codejunior.ui.theme
 
 import android.app.Activity
 import android.os.Build

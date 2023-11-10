@@ -1,4 +1,4 @@
-package com.example.cecaneto.ui.theme
+package com.example.codejunior.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

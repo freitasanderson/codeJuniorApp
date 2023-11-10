@@ -1,10 +1,10 @@
-package com.example.cecaneto
+package com.example.codejunior
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
-import com.example.cecaneto.databinding.ActivityMainBinding
+import com.example.codejunior.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val webView = binding.cecaneTO
 
         webView.webViewClient = WebViewClient()
-        webView.loadUrl("http://codejunior.luisfelipenunes.com/")
+        webView.loadUrl("https://codejunior.fly.dev/codejunior")
         webView.settings.javaScriptEnabled = true
         webView.settings.domStorageEnabled = true
 
